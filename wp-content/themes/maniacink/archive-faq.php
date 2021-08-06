@@ -1,6 +1,11 @@
 <?php 
 get_header(); ?>
 
+
+
+
+
+
 <!--Hero-->
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
         <div class="carousel-inner">
