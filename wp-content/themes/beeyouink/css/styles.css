@@ -1,0 +1,650 @@
+/*
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.paragraph {
+  font-size: 25px;
+}
+
+.largeLink {
+  font-size: 30px;
+}
+
+.descBox {
+  width: 100%;
+  min-width: auto;
+  min-height: 125px;
+  height: 100%;
+  border: dotted 0.2px lightgrey;
+  border-radius: 5px;
+}
+
+.textFields {
+  border: dotted 1px lightgrey;
+  width: 200px;
+  height: 45px;
+}
+
+.inputLabels {
+  font-size: 17px;
+}
+
+.page-numbers {
+  font-family: "Sedgwick Ave Display", cursive;
+  padding: 0.5%;
+  font-size: 25px;
+}
+.sedgewick {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.sedgewickLink {
+  font-family: "Sedgwick Ave Display", cursive;
+  /* font-size: 25px; */
+  color: #000000;
+}
+
+.sedgewickLink:hover {
+  color: #944559;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  color: #fff;
+  font-size: 22px;
+  display: inline-block;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer h3 {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+}
+
+.faq ul {
+  list-style-type: none;
+}
+
+.socialfaq li {
+  display: inline-block;
+  padding: 2.5%;
+}
+
+.faq i {
+  font-size: 30px;
+}
+
+.faq a:hover {
+  color: red;
+  transition: 0.1s ease-in-out;
+}
+
+.faq a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.faq {
+  color: #fff;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.carousel-item {
+  max-width: auto;
+  max-height: auto;
+}
+
+.customers p {
+  padding: 5%;
+}
+
+.customers img {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.thumbnails img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.extrasOne {
+  min-height: 200px;
+  max-height: 200px;
+  /* background-image: url(../assets/img/1.jpg); */
+  background-position: center;
+  background-size: cover;
+}
+.extrasTwo {
+  padding-bottom: 5%;
+  min-height: 200px;
+  max-height: 200px;
+  /* background-image: url(../assets/img/2.jpg); */
+  background-position: center;
+  background-size: cover;
+}
+
+.workhero {
+  height: 85vh;
+  width: 100vw;
+}
+
+.tattoobg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coverupsbg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.portraitsbg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.smtatsbg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.abouthero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(IMG/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.nav-item i {
+  font-size: 25px;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.carousel-caption h5 {
+  font-size: 30px;
+  font-weight: 600px;
+  width: 45%;
+  padding: 1%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+  z-index: 1;
+  color: #fff;
+}
+
+.instagram-media {
+  max-width: 90%;
+}
+
+.articles {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login h1 a {
+  background: url(../assets/img/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login form {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+.login h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #000000;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .display-3,
+  .display-4 {
+    font-size: 40px;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  html {
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+  }
+
+  .contactform label {
+    text-align: left;
+    padding: 1%;
+    margin-top: 0px;
+  }
+
+  .contactform textarea {
+    width: 200px;
+    height: 100px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+  }
+
+  .contactform input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+    padding: 0px;
+  }
+
+  .contactform h1 {
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contactform {
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .navbar-brand img {
+    width: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .mobiledisplay {
+    display: none;
+  }
+
+  .mobileviewmorebtn {
+    display: block;
+  }
+
+  .size-maniacHomeBlog {
+    width: 200px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+    /* margin-right: 25%; */
+  }
+
+  .size-maniacSmallLandscape {
+    width: 275px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+  .size-maniacMediumLandscape {
+    width: 275px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    top: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  .navbar {
+    top: 0;
+  }
+
+  .mobileviewmorebtn {
+    display: none;
+  }
+
+  .contactform label {
+    text-align: left;
+    padding: 1%;
+    margin-top: 0px;
+  }
+
+  .contactform textarea {
+    width: 200px;
+    height: 100px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+  }
+
+  .contactform input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+    padding: 0px;
+  }
+
+  .contactform h1 {
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contactform {
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .size-maniacHomeBlog {
+    width: 265px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacSmallLandscape {
+    width: 265px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacMediumLandscape {
+    width: 265px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 35px;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .mobileviewmorebtn {
+    display: none;
+  }
+
+  .contactform label {
+    text-align: left;
+    padding: 1%;
+    margin-top: 0px;
+  }
+
+  .contactform textarea {
+    width: 370px;
+    height: 100px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+  }
+
+  .contactform input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+    padding: 0px;
+  }
+
+  .contactform h1 {
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contactform {
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+  }
+
+  .navbar {
+    font-size: 15px;
+    top: 0;
+  }
+
+  .size-maniacHomeBlog {
+    width: auto;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacSmallLandscape {
+    width: 200px;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacMediumLandscape {
+    width: auto;
+    height: auto;
+    max-height: auto;
+    max-width: 600px;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .size-maniacHomeBlog {
+    width: auto;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacSmallLandscape {
+    width: auto;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .size-maniacMediumLandscape {
+    width: auto;
+    height: auto;
+    max-height: auto;
+    overflow-x: hiden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .thumbs:hover {
+    transition: 0.1s ease-in;
+    transform: scale(1.02);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .thumbs {
+    /*border: 1px solid #000;*/
+    border-radius: 10px;
+    max-width: 31.5%;
+    padding: 3% auto;
+  }
+
+  .contactform label {
+    text-align: left;
+    padding: 1%;
+  }
+
+  .contactform textarea {
+    width: 367px;
+    height: 160px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+  }
+
+  .contactform input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #944559;
+    border-radius: 5px;
+    padding: 3%;
+  }
+
+  .contactform {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+  }
+
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  .navbar-brand {
+    font-size: 50px;
+  }
+
+  .navbar {
+    top: 0;
+    font-size: 19px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
