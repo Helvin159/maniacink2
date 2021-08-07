@@ -10,7 +10,7 @@
 
 <!--Nav-->
 <nav class="navbar navbar-expand-lg navbar-dark " >
-	<a class="navbar-brand " href="<?php echo esc_url(site_url('home'));?>">Maniac Ink <img src="<?php echo get_theme_file_uri('assets/img/logo3.png');?>"></a>
+	<a class="navbar-brand " href="<?php echo esc_url(site_url('home'));?>"><?php echo get_bloginfo('name')?> <img src="<?php echo get_theme_file_uri('assets/img/logo3.png');?>"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>

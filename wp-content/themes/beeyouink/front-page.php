@@ -31,7 +31,7 @@
           </div>
           <hr>
           <div class="container">
-            <a class="sedgewickLink largeLink" href="<?php echo site_url('about')?>">About Ink Maniac</a>
+            <a class="sedgewickLink largeLink" href="<?php echo site_url('about')?>">About <?php echo get_bloginfo('name')?></a>
           </div>
         </div>
       </div>
@@ -66,8 +66,8 @@
 <div class="row text-center">
   <div class="col-4"><hr class="text-center my-5 w-75"></div>
   <div class="col-4 "> 
-    <h1 style="font-family: 'Sedgwick Ave Display', cursive; " class="pt-4 display-2 d-none d-sm-none d-md-none d-lg-block d-xl-block">Maniac Ink</h1>
-    <h1 style="font-family: 'Sedgwick Ave Display', cursive; " class="pt-4 display-4 d-sm-block d-md-block d-lg-none d-xl-none">Maniac Ink</h1>
+    <h1 style="font-family: 'Sedgwick Ave Display', cursive; " class="pt-4 display-2 d-none d-sm-none d-md-none d-lg-block d-xl-block"><?php echo get_bloginfo('name')?></h1>
+    <h1 style="font-family: 'Sedgwick Ave Display', cursive; " class="pt-4 display-4 d-sm-block d-md-block d-lg-none d-xl-none"><?php echo get_bloginfo('name')?></h1>
 </div>
   <div class="col-4"><hr class="text-center my-5 w-75"></div>
 </div>
