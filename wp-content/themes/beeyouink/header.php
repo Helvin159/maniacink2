@@ -20,22 +20,10 @@
 			<li class="nav-item <?php if(is_page('home')) echo 'active';?>">
 				<a class="nav-link" href="<?php echo esc_url(site_url());?>">Home<span class="sr-only"></span></a>
 			</li>
-			<li class="nav-item <?php if(is_page('categories')) echo 'active';?>">
-				<a class="nav-link" href="<?php echo esc_url(site_url('/categories'));?>">My Work<span class="sr-only"></span></a>
-			</li>			
-			<li class="nav-item <?php if(is_page('blog')) echo 'active';?>">
-				<a class="nav-link" href="<?php echo esc_url(site_url('blog'));?>">Blog<span class="sr-only"></span></a>
-			</li>
-
-
-			<li class="nav-item <?php if(is_page('contact')) echo 'active';?>">
-				<a  href="<?php echo esc_url(site_url('contact'))?>" class="nav-link">
-					Contact Me!
-				</a>
-			</li>
+			
 
 			<li class="nav-item">
-				<a class="nav-link" href="https://www.instagram.com/inkmaniac03/" tabindex="-1" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a class="nav-link" href="https://www.instagram.com/BeeYouInk/" tabindex="-1" target="_blank"><i class="fab fa-instagram"></i></a>
 
 			</li>
 		</ul>
